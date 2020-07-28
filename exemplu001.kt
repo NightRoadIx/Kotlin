@@ -1,3 +1,6 @@
+// Variables globales
+val variableGlobal = 3.1416
+
 // Función principal
 fun main(args: Array<String>) {
 	/* Variables en Kotlin
@@ -16,7 +19,7 @@ fun main(args: Array<String>) {
 	cuenta2 = 10
 	
 	// Existen varios tipos de datos a utilizar
-	// Byte, Short, Long, Float, Double, String
+	// Byte, Char, Short, Long, Float, Double, String
 	
 	// Por otro lado, Kotlin puede inferir el tipo de dato al asignar un valor a la variable
 	val lenguaje = "Kotlin"
@@ -35,4 +38,10 @@ fun main(args: Array<String>) {
 	// Para mostrar las variables se usa "$" antes del nombre de la variable
 	println("Los valores $cuenta y $cuenta2")
 	println("El lenguaje $lenguaje en mayúsculas $mayusculas")
+	
+	// Es posible utilizar conversiones explícitas entre tipos de datos
+	/*
+ 	 * toByte(), toShort(), toInt(), toLong(), toFloat(), toDouble(), toChar() */
+	val j : Float = cuenta.toFloat()
+	println("Los valores $cuenta y $j")
 }
