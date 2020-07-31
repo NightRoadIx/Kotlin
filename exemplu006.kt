@@ -9,7 +9,7 @@
 // Por ejemplo la siguiente función realiza la suma de 2 valores enteros y regresa un valor entero
 // Se observa la estructura
 // fun nombreFuncion(dato : tipoDato) : tipoDatoRetorno
-fun sum(a: Int, b : Int) : Int {
+fun sum(a: Int, b : Int) : Int {    // w = f(x, y, z) = x + y + z
 	return a + b
 }
 
@@ -20,7 +20,7 @@ fun funciona(a : Int = 5, b : String = "Suecia") {
 }
 
 // Algo interesante de las funciones en Kotlin es que se pueden simplificar
-// al máximo de la sigueinte forma
+// al máximo de la siguiente forma
 fun respuesta(valor : Int) : String = if(valor < 6) {
 		"Reprobado"
 	} else {
@@ -32,8 +32,8 @@ fun respuesta(valor : Int) : String = if(valor < 6) {
 // Otra característica que puede utilizarse en Kotlin es el uso de funciones anónimas
 // En este caso la funcion funLongitudCadena, recibe una cadena
 // y regresa un valor de tipo Int, el cual es la longitud de la cadena 
-val funLongitudCadena : (String) -> Int = { input ->
-	input.length
+val funLongitudCadena : (String) -> Int = {
+	input -> input.length
 }
 // Estas funciones pueden ser comparadas con las funciones lambda de otros lenguajes como Python
 
@@ -90,6 +90,9 @@ fun main(args: Array<String>) {
 	// Para invocar funciones anónimas
 	val longitud : Int = funLongitudCadena("Cadena laaaaarga")
 	println("Longitud de la cadena $longitud")
+	
+	val llamado : Int = funAnonima(3, 2)
+	println(llamado)
 	
 	println()
 	// Para invocar la función de orden superior
