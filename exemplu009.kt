@@ -3,12 +3,12 @@
  * La herencia es uno de los principales conceptos de la POO
  * Esta permite la re-utilización de código, ya que posibilita el uso
  * de las propieades y métodos de una clase (clase base) a una nueva clase
- * (clase derivada), la cual puede contener sus propias propieades y métodos
+ * (clase derivada), la cual puede contener sus propias propiedades y métodos
  * */
 
 // Se debe usar la palabra clave open (permite que una clase pueda heredar)
 open class claseBase {
-	// propieades
+	// propiedades
 	val nombre = "Clase Base"
 	
 	// métodos
@@ -18,11 +18,11 @@ open class claseBase {
 }
 // Ahora se genera la clase derivada usando :
 class claseDerivada : claseBase() {
-	// propieades
+	// propiedades
 	
 	// métodos
 	fun B() {
-		// Imprimir la propiead de la clase base
+		// Imprimir la propiedad de la clase base
 		println(nombre)
 		println("Esta es la clase derivada")
 	}
@@ -66,7 +66,7 @@ class Ifone : Celular() {
 	fun desplegarColor() {
 		// Mandar a llamar a la propiedad de la clase base
 		println("El color es: " + super.color)
-		// Lallando a la función de la clase base
+		// Llamando a la función de la clase base
 		super.mostrarCompania("Manzana")
 	}
 }
