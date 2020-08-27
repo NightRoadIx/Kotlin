@@ -11,4 +11,10 @@ exemplu006.kt   - Uso de funciones y el paradigma de programación funcional
 exemplu007.kt   - Programación Orientada a Objetos (Bases)  
 exemplu008.kt   - Programación Orientada a Objetos (Modificadores de Clase, public, private, internal, protected)  
 exemplu009.kt   - Programación Orientada a Objetos (Herencia)  
-exemplu010.kt   - Manejo de excepciones  
+exemplu010.kt - Manejo de excepciones  
+exemplu011.kt - Programación Orientada a Objetos (Clases anidadas)  
+exemplu012.kt - Programación Orientada a Objetos (Herencia II)  
+exemplu013.kt - Programación Orientada a Objetos (Interferencia)  
+exemplu014.kt - Programación Orientada a Objetos (Clases abstractas)  
+exemplu015.kt - Enumeraciones  
+exemplu016.kt - Expresiones regulares  
